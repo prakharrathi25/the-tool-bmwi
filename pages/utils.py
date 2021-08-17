@@ -128,7 +128,7 @@ def plot_map(data, merge_col, data_col, cat_col=False):
         fig, ax = plt.subplots(figsize=(50,30))
         merged.plot(column=data_col, #scheme="NaturalBreaks",
                     #scheme='UserDefined', classification_kwds={'bins':clusters},
-                    ax=ax, cmap='Set3', categorical=True, legend=True)
+                    ax=ax, cmap='Set1', categorical=True, legend=True)
         ax.set_title(f'{data_col} in Germany by County', fontsize=15)
     
     # (2) numerical data_col
